@@ -176,10 +176,9 @@ def find_best_response(question, pattern_embeddings, intents, tokenizer, model):
         distance = cosine(question_embedding, embedding)
         if distance < best_distance:
             best_tag, best_distance = tag, distance
-    # Выбор случайного ответа из списка возможных ответов для лучшего тега
     best_responses = next(intent['responses'] for intent in intents if intent['tag'] == best_tag)
     best_response = np.random.choice(best_responses)
-    return best_response, 1 - best_distance  # Возвращаем ответ и косинусное сходство
+    return best_response, 1 - best_distance
 
 # Пример использования
 question = "Как тебя зовут?"

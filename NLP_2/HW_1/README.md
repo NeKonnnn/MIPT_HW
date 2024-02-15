@@ -1,3 +1,4 @@
+# Retrieval-based chatbot Rick
 ![Rick](https://github.com/NeKonnnn/MIPT_HW/assets/91149797/36d11c49-e839-4163-9e5f-5089833e42e9)
 
 # Сбор данных:

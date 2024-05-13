@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("/static/Gazprombank-logo.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-row label {
+    width: calc(100% - 170px);
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.form-row input[type="number"] {
+    width: 150px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.submit-row {
+    margin-top: 20px;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: #004a99d0;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 20%;
+}
+
+.submit-button:hover {
+    background-color: #003366;
+}
+
+.predictions {
+    margin-top: 20px;
+}
+
+.prediction {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-top: 10px;
+}
